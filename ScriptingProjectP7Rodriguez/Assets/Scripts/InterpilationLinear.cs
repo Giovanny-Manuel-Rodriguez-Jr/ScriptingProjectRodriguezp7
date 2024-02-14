@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class InterpilationLinear : MonoBehaviour
-{
+{/*
     //The Mathf.Lerp function takes 3 float parameters: one representing the value to interpolate from; another representing the value to interpolate to and a final float representing how far to interpolate. In this case, the interpolation value is 0.5 which means 50%. shows how the interpolate and final float work
     float result = Mathf.Lerp(3f, 5f, 0.5f);
 
@@ -20,5 +20,5 @@ public class InterpilationLinear : MonoBehaviour
      void Update()
     {
         light.intensity = Mathf.Lerp(light.intensity, 8f, 0.5f * Time.deltaTime);
-    }
+    }*/
 }
