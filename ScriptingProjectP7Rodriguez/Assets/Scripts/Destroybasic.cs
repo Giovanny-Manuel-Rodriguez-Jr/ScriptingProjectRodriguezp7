@@ -9,7 +9,7 @@ public class Destroybasic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if(Input.GetKeyUp(KeyCode.UpArrow))
+      if(Input.GetKey(KeyCode.UpArrow))
       {
             Destroy(gameObject);
       }

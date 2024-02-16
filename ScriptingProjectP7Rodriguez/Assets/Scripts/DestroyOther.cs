@@ -8,7 +8,7 @@ public class DestroyOther : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyUp(KeyCode.DownArrow))
+        if(Input.GetKey(KeyCode.DownArrow))
         {
             Destroy(other);
         }
